@@ -1,0 +1,16 @@
+{
+  "name": "flight-graphql-api",
+  "version": "1.0.0",
+  "description": "Simple GraphQL API for flight information",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@graphql-tools/schema": "^10.0.0",
+    "express": "^4.18.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.8.1"
+  }
+} 
